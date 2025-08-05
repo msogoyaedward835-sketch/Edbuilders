@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Edward S. Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Edward S. | Branding & Web Creator</h1>
+    <p>Email: <a href="mailto:msogoyaedward835@gmail.com">msogoyaedward835@gmail.com</a><br>
+       WhatsApp: <a href="https://wa.me/255627504033" target="_blank">+255 627 504 033</a>
+    </p>
+  </header>
+
+  <section class="gallery">
+    <div class="gallery-item"><img src="photo1.jpg" alt="Project image 1"></div>
+    <div class="gallery-item"><img src="photo2.jpg" alt="Project image 2"></div>
+    <div class="gallery-item"><img src="photo3.jpg" alt="Project image 3"></div>
+    <div class="gallery-item"><img src="photo4.jpg" alt="Project image 4"></div>
+    <!-- Add more gallery-item divs as needed -->
+  </section>
+
+  <section class="branding">
+    <h2>What I Do</h2>
+    <p>I design branding and websites that elevate clients’ presence—focusing on clarity, style, and functionality.</p>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 Edward S. | All rights reserved</p>
+  </footer>
+</body>
+</html>

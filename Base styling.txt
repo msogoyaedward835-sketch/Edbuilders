@@ -1,0 +1,70 @@
+/* Base styling */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #222;
+  line-height: 1.5;
+}
+
+/* Header */
+.header {
+  background: #ccc;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.header a { color: #0056a6; font-weight: bold; }
+.header p { font-size: 1rem; }
+
+/* Gallery section */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+.gallery-item {
+  background: #e0e0e0;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+.gallery-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Branding section */
+.branding {
+  background: #ddd;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+.branding h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+.branding p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+
+/* Footer */
+.footer {
+  background: #ccc;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+/* Responsive tweaks */
+@media(max-width:600px) {
+  .header h1 { font-size: 2rem; }
+  .branding h2 { font-size: 1.5rem; }
+}
